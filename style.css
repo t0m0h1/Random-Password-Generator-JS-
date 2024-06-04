@@ -9,12 +9,12 @@ body {
 }
 
 .formcontainer {
-    background-color: #1e3a7784;
+    background-color: #3b599b56;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Updated box shadow */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     text-align: center;
-    margin: 10px;
+    margin: auto
 }
 
 .container {
@@ -23,7 +23,7 @@ body {
     border-radius: 8px;
     border: 1px solid #5a5050;
     text-align: center;
-    margin: 10px; /* Added margin */
+    margin: 10px;
 }
 
 .container h1 {

@@ -48,11 +48,11 @@ function checkPassword() {
         alert('short password');
         backgroundColor = 'red';
         return;
-    } else if (password.length >= 12 && password.includes('!@#$%^&*()_+{}[]|:;<>,.?/')) {
+    } else if (password.length > 12 || password.includes('!@#$%^&*()_+{}[]|:;<>,.?/')) {
         alert('very strong password');
         backgroundColor = 'green';
         return;
-    } else if (password.length >= 12) {
+    } else if (password.length >= 10 && password.length <= 12) {
         alert('strong password');
         backgroundColor = 'yellow';
         return;
