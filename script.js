@@ -60,3 +60,14 @@ function checkPassword() {
 
     document.getElementById('passwordDisplay').textContent = password;
 }
+
+function copyPassword() {
+    const password = document.getElementById('passwordDisplay').textContent;
+    if (password === '') {
+        alert('Please generate a password first.');
+        return;
+    }
+    
+    navigator.clipboard.writeText(password);
+    alert('Password copied to clipboard.');
+}

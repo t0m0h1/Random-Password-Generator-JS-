@@ -33,6 +33,7 @@ body {
 .container label {
     display: block;
     margin-bottom: 10px;
+    margin-top: 15px;
 }
 
 .container input[type="number"],
