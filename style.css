@@ -1,6 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'ebrima', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +9,7 @@ body {
 }
 
 .formcontainer {
-    background-color: #fff;
+    background-color: #1e3a7784;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Updated box shadow */
@@ -19,15 +18,16 @@ body {
 }
 
 .container {
-    background-color: #fff;
+    background-color: #a3a2a2;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Updated box shadow */
+    border: 1px solid #5a5050;
     text-align: center;
+    margin: 10px; /* Added margin */
 }
 
 .container h1 {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .container label {
