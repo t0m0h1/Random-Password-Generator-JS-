@@ -9,6 +9,14 @@ body {
     background-color: rgb(43, 48, 82);
 }
 
+.formcontainer {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Updated box shadow */
+    text-align: center;
+    margin: 10px;
+}
 
 .container {
     background-color: #fff;
